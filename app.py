@@ -6,6 +6,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load trained model
+# tset
 model = pickle.load(open("Students_Marks_predict_model.pkl", "rb"))
 
 @app.route('/')
